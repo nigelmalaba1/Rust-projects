@@ -1,1 +1,2 @@
-# Rust-projects
+# Colelction of Rust Mini projects
+
