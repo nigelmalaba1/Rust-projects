@@ -21,8 +21,9 @@ The program takes a string input from the user and checks whether it is a palind
 ```
 Enter a word or phrase:
 racecar
-'racecar' is a palindrome 
+'racecar' is a palindrome
 ```
+
 
 # Configuration Steps
 
