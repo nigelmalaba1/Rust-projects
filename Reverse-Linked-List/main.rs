@@ -1,3 +1,5 @@
+use std::mem;
+
 pub enum List<T> {
     Empty,
     Link(T, Box<List<T>>),
@@ -21,4 +23,18 @@ impl<T> List<T> {
         }
         *self = current_node;
     }
+}
+
+fn main() {
+    let mut list = List::new();
+
+    list.push_front(1);
+    list.push_front(2);
+    list.push_front(3);
+    list.push_front(4);
+    list.push_front(5);
+
+    println!("Original list: {:?}", list);
+    list.reverse();
+    println!("Reversed list: {:?}", list);
 }
